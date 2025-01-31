@@ -12,25 +12,28 @@ html {
 }
 
 body {
-    color: #fff;
+    color: #171616;
+    background-color: #29282a;
     font-family: "IBM Plex Mono";
     font-weight: 400;
     font-size: 0.875rem;
     overflow-x: hidden;
+    margin-top: 2%;
 }
 
 .first-page {
-    background-color: #141313 ;
+    background-color: #080808 ;
 }
 
 .nav-options {
-    background-color: #2b2929;
-    width: 100%;
-    height: 5rem;
+    background-color: #4f5354;
+    width: 80%;
+    height: 4.375rem;
     margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 0 0 15px 15px;
 }
 
 .nav-custom {
@@ -45,7 +48,7 @@ body {
 .nav-options li a {
     text-decoration: none;
     cursor: pointer;
-    color: #5c5858;
+    color: #9C9C9C;
 }
 
 .navbar-nav .nav-link {
@@ -57,8 +60,8 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #5c5858;
-    border-color: #5c5858 ;
+    background-color: #535353;
+    border-color: #535353 ;
 }
 
 .section {
@@ -68,7 +71,7 @@ body {
 .principal {    
     display: flex;
     justify-content: center;
-    color: #5c5858; 
+    color: #9C9C9C; 
     margin: auto;
     margin-top: 50px;
 }
@@ -76,45 +79,26 @@ body {
 .info {
     max-width: 638px;
     max-height: 347px;
-    margin-top: 150px;
+    margin-top: 200px;
     align-items: left;
-}
 
-.info h1 {
-    font-family: "Raleway";
-    font-weight: 80auto;
-    font-size: 5rem;
-    color: #fff;
-    margin-bottom: 25px;
 }
 
 .info p {
     line-height: 1.7rem;
-    font-size: 1rem;
+    font-size: 0.875rem;
     word-spacing: 0.5rem;
     margin-bottom: 2.813rem;
 }
 
 .photo { 
-    margin-top: 200px;
-    margin-left: 200px;
-
+    margin-top: 100px;
+    margin-left: 80px;
+   
 }
 .perfil-photo {
-    max-width: 30rem;
-    border-radius: 10%;
-}
-
-.btn-portfolio {
-    width: 19.25rem;  
-    padding: 0.813rem;
-    background-color: #2b2929 ;
-    border-color: #2b2929;
-    border-radius: 5px;
-    font-family: "IBM Plex Mono";
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: #fff;
+    max-width: 26.875rem;
+    border-radius: 50%;
 }
 
 .btn-portfolio a {
@@ -122,11 +106,6 @@ body {
     color: #fff;
 }
 
-.btn-portfolio:hover {
-    background-color:#5c5858;
-    border-color:#fff;
-    color: whitesmoke;
-}
 
 .social-icons {
     margin-top: 30px;
@@ -173,67 +152,32 @@ body {
     font-size: 2.2rem;
 }
 
+.icon-second-page {
+    margin-left: 8px;
+}
 
-.left-column {
-    background-color: rgba(125, 142, 153, 0.2);
+.left-column, .right-column {
+    background-color: rgba(169, 210, 235, 0.2); 
     border-radius: 13px;
     padding: 30px;
     margin-bottom: 20px;
+}
+
+.right-column {
+    background-color: rgba(174, 218, 189, 0.2);
 }
 
 .left-column {
     margin-right: 20px; 
 }
 
-
-
-.left-column .carrera {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 50px;
+.btn-back{
+    color: #FFF;
+    text-align: center;
 }
-
-.left-column .academy-name {
-    margin-top: -8px;
-    color: #626161;
-    margin-left: 27px;
-    font-family: "Raleway";;
-    font-size: .9rem;
-}
-
-.left-column {
-    width: 50%;
-    height: auto;
-}
-
-.description-carrera {
-    color: #626161;
-    font-size: .9rem;
-    font-family: "Raleway";
-}
-
-.skills {
-    color:#626161;
-    font-size: .9rem;
-    font-family: "Raleway";
-}
-.footer {
-    height: 160px;
-    background-color: #1a1111;
+.text-center{
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
-.footer p {
-    margin-top: 50px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 0.875rem;
+.card-body{
+    text-align: center;
 }
-
-.social-icons-footer {
-    margin-top:10px;
-}
-
-
