@@ -82,8 +82,8 @@ body {
 
 .info h1 {
     font-family: "Raleway";
-    font-weight: 80auto;
-    font-size: 5rem;
+    font-weight: 400;
+    font-size: 4rem;
     color: #fff;
     margin-bottom: 25px;
 }
@@ -96,27 +96,14 @@ body {
 }
 
 .photo { 
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 90px;
 
 }
 .perfil-photo {
     max-width: 30rem;
     border-radius: 10%;
 }
-
-.btn-portfolio {
-    width: 19.25rem;  
-    padding: 0.813rem;
-    background-color: #2b2929 ;
-    border-color: #2b2929;
-    border-radius: 5px;
-    font-family: "IBM Plex Mono";
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: #fff;
-}
-
 .btn-portfolio a {
     text-decoration: none;
     color: #fff;
@@ -158,12 +145,12 @@ body {
     justify-content: space-around;
 }
 
-.left-column, .right-column {
+.right-column {
     margin-top: 30px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.left-column:hover, .right-column:hover {
+.right-column:hover {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 .second-page-title {
@@ -185,38 +172,27 @@ body {
     margin-right: 20px; 
 }
 
-
-
-.left-column .carrera {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-.left-column .academy-name {
-    margin-top: -8px;
-    color: #626161;
-    margin-left: 27px;
-    font-family: "Raleway";;
-    font-size: .9rem;
-}
-
 .left-column {
     width: 50%;
     height: auto;
 }
 
-.description-carrera {
+.sobre-mi {
+    color: #626161;
+    font-size: .9rem;
+    font-family: "Raleway";
+}
+.experiencia {
+    color: #626161;
+    font-size: .9rem;
+    font-family: "Raleway";
+}
+.education {
     color: #626161;
     font-size: .9rem;
     font-family: "Raleway";
 }
 
-.skills {
-    color:#626161;
-    font-size: .9rem;
-    font-family: "Raleway";
-}
 .footer {
     height: 160px;
     background-color: #1a1111;
